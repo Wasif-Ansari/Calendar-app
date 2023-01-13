@@ -24,7 +24,7 @@ cal = Label(new, text="Calendar",bg='grey',font=("times", 28, "bold"))
 year = Label(new, text="Enter year", bg='dark grey')
 year_field=Entry(new)
 button = Button(new, text='Show Calender',
-fg='Black',bg='Blue')
+fg='Black',bg='Blue',command=showCalender)
 
 #putting widgets in position
 cal.place(x=120,y=10)
